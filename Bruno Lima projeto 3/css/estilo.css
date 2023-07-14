@@ -1,0 +1,86 @@
+#meu_menu{/* abrindo id do menu */
+text-align: center;
+/* padding margem interna */
+padding-right: 0px;
+/* colocando borda inferior */
+border-bottom: solid;
+/* tamanho da fonte menu */
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}/* fechando id menu */
+
+/* chamando a classe mae */
+#meu_menu a{
+text-decoration: none;
+color: black;
+font-size: 15pt;
+}
+
+/* colocando efeito de sobre no menu */
+#meu_menu a:hover{
+color: blue;
+background-color:white;
+transition: 0,9s;
+opacity: 0.7s;
+}
+
+/* trabalhando com a classe titulo */
+.titulo{
+  text-align: center;
+  background-color: white;
+  border-style: double;
+  border-color: red;
+  border-radius: 20px;
+  border-width: 5px;
+  }
+
+  /* trabalhando com a div da imagem */
+  #fundo{
+  display: flex;
+  background-color: white;
+  justify-content: center;
+
+  }
+
+  img{
+  width: 30%;
+  }
+
+  /* trabalhando com a divprincipal */
+  .master{
+  display:flex; 
+  }
+
+  .col_esquerda{
+  margin-right:20px;
+  text-align: justify;
+  }
+
+  .col_direita{
+    margin-right:20px;
+    text-align: justify;
+  }
+
+  .titulo_col{
+  text-align: center;
+  background-color: white;
+  }
+
+
+
+#texto{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pt;
+}
+
+#texto2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pt;
+}
+
+
+
+
+
+
+
